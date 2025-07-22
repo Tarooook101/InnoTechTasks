@@ -1,54 +1,60 @@
-This repository contains solutions for 3 tasks:
+# InnoTech Tasks - Session 2
 
-Task 1: Student Affairs Website
-Created 5 HTML pages for a Student Affairs system:
+This repository contains solutions for 3 tasks assigned during the second session of the internship at InnoTech.
 
-index.html - Main homepage
+---
 
-StudentProfile.html - Student profile information page
+## ✅ Task 1: Student Affairs Website
 
-CourseRegistration.html - Course registration system
+Developed a simple frontend using HTML5 and Bootstrap for a Student Affairs system. The project includes the following pages:
 
-GradesAndTranscript.html - Grades and academic records
+- `index.html` – **Main Homepage**
+- `StudentProfile.html` – **Student Profile Information**
+- `CourseRegistration.html` – **Course Registration System**
+- `GradesAndTranscript.html` – **Grades and Academic Records**
+- `AcademicCalander.html` – **Academic Calendar and Events**
 
-AcademicCalander.html - Academic calendar and important dates
+---
 
-Task 2: Sum Calculation Console App (Program.cs - first file)
-This console application compares two methods for calculating the sum of numbers from 1 to N:
+## ✅ Task 2: Sum Calculation Console App
 
-Loop Method: Uses a simple for-loop to add numbers one by one
+**File:** `Program.cs` (first file)
 
-Formula Method: Uses the mathematical formula n*(n+1)/2 for instant calculation
+A C# console application that calculates the sum of numbers from 1 to _N_ using two methods:
 
-The app demonstrates:
+- **Loop Method:** Iterates using a `for` loop
+- **Formula Method:** Uses the mathematical formula `n * (n + 1) / 2`
 
-How mathematical formulas can be more efficient than iterative approaches
+### Highlights:
+- Demonstrates performance differences between iterative and mathematical approaches
+- Uses `Stopwatch` for measuring execution time
+- Includes input validation and user interaction
 
-Performance measurement using Stopwatch
+---
 
-User input validation
+## ✅ Task 3: String Generation Console App
 
-Task 3: String Generation Console App (Program.cs - second file)
-This console application compares two methods for generating a string of numbers:
+**File:** `Program.cs` (second file)
 
-StringBuilder Method: Uses StringBuilder for efficient string concatenation
+A C# console application that generates a string of numbers using two different techniques:
 
-Regular Concatenation Method: Uses standard string concatenation with +=
+- **StringBuilder Method:** Efficient for large-scale concatenation
+- **String Concatenation Method:** Uses the `+=` operator
 
-The app demonstrates:
+### Highlights:
+- Shows the performance advantage of `StringBuilder`
+- Explains string immutability and its impact
+- Uses `Stopwatch` for timing and comparison
+- Includes input validation and interactive retry option
 
-The performance benefits of StringBuilder for multiple string operations
+---
 
-How string immutability affects performance
+## 🔧 Common Features in Console Apps:
+- Clean and formatted output
+- User-friendly interaction with retry options
+- Execution time comparison using `Stopwatch`
+- Proper validation for all user inputs
 
-Comparative timing analysis between the two approaches
+---
 
-Both console apps feature:
-
-User input validation
-
-Performance measurement
-
-Interactive "try again" loops
-
-Clear output formatting
+### 🔗 [Visit the Repository](https://github.com/Tarooook101/InnoTechTasks)
