@@ -1,60 +1,32 @@
-# InnoTech Tasks - Session 2
+# 📘 InnoTechTasks
 
-This repository contains solutions for 3 tasks assigned during the second session of the internship at InnoTech.
+### Welcome to your InnoTech Company Internship Task Repository
 
----
-
-## ✅ Task 1: Student Affairs Website
-
-Developed a simple frontend using HTML5 and Bootstrap for a Student Affairs system. The project includes the following pages:
-
-- `index.html` – **Main Homepage**
-- `StudentProfile.html` – **Student Profile Information**
-- `CourseRegistration.html` – **Course Registration System**
-- `GradesAndTranscript.html` – **Grades and Academic Records**
-- `AcademicCalander.html` – **Academic Calendar and Events**
+This repository contains all the assignments and solutions I've completed as part of my internship at **InnoTech Company**.  
+Each section corresponds to a training module or task assigned during different phases of the internship.
 
 ---
 
-## ✅ Task 2: Sum Calculation Console App
+## 🚀 Purpose
 
-**File:** `Program.cs` (first file)
+This repository tracks my progress and demonstrates practical learning as part of the internship program at InnoTech Company:
 
-A C# console application that calculates the sum of numbers from 1 to _N_ using two methods:
-
-- **Loop Method:** Iterates using a `for` loop
-- **Formula Method:** Uses the mathematical formula `n * (n + 1) / 2`
-
-### Highlights:
-- Demonstrates performance differences between iterative and mathematical approaches
-- Uses `Stopwatch` for measuring execution time
-- Includes input validation and user interaction
+- ✅ Solving tasks assigned in each training section  
+- ✅ Showcasing coding skills, technology familiarity, and documentation practices  
+- ✅ Serving as a work log and reference point for both mentor and reviewer  
 
 ---
 
-## ✅ Task 3: String Generation Console App
+## 🤝 Collaboration & Feedback
 
-**File:** `Program.cs` (second file)
-
-A C# console application that generates a string of numbers using two different techniques:
-
-- **StringBuilder Method:** Efficient for large-scale concatenation
-- **String Concatenation Method:** Uses the `+=` operator
-
-### Highlights:
-- Shows the performance advantage of `StringBuilder`
-- Explains string immutability and its impact
-- Uses `Stopwatch` for timing and comparison
-- Includes input validation and interactive retry option
+Your feedback is welcomed!  
+Feel free to **open an issue** or **start a discussion** if you’d like me to clarify any solution or improve the code.
 
 ---
 
-## 🔧 Common Features in Console Apps:
-- Clean and formatted output
-- User-friendly interaction with retry options
-- Execution time comparison using `Stopwatch`
-- Proper validation for all user inputs
+## 📞 Contact
 
----
-
-### 🔗 [Visit the Repository](https://github.com/Tarooook101/InnoTechTasks)
+- **Name**: Tarek Wageeh Abozeid  
+- **Position**: Intern at InnoTech Company  
+- **GitHub**: [Tarooook101](https://github.com/Tarooook101)  
+- **Email**: [tarek.abozeid101@gma]()
