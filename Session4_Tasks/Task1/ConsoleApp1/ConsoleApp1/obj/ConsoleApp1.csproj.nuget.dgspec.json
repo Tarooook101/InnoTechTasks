@@ -50,43 +50,7 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "dependencies": {
-            "Microsoft.Extensions.Configuration": {
-              "target": "Package",
-              "version": "[9.0.8, )"
-            },
-            "Microsoft.Extensions.Configuration.CommandLine": {
-              "target": "Package",
-              "version": "[9.0.8, )"
-            },
-            "Microsoft.Extensions.Configuration.EnvironmentVariables": {
-              "target": "Package",
-              "version": "[9.0.8, )"
-            },
-            "Microsoft.Extensions.Configuration.Json": {
-              "target": "Package",
-              "version": "[9.0.8, )"
-            },
-            "Microsoft.Extensions.DependencyInjection": {
-              "target": "Package",
-              "version": "[9.0.8, )"
-            },
-            "Microsoft.Extensions.Logging": {
-              "target": "Package",
-              "version": "[9.0.8, )"
-            },
-            "Microsoft.Extensions.Logging.Console": {
-              "target": "Package",
-              "version": "[9.0.8, )"
-            },
-            "System.Diagnostics.PerformanceCounter": {
-              "target": "Package",
-              "version": "[9.0.8, )"
-            },
             "System.Management": {
-              "target": "Package",
-              "version": "[9.0.8, )"
-            },
-            "System.Text.Json": {
               "target": "Package",
               "version": "[9.0.8, )"
             }

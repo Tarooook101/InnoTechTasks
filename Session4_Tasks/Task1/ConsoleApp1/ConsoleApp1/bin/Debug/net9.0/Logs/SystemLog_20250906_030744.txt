@@ -1,0 +1,27 @@
+﻿=== SYSTEM MONITORING LOG ===
+Timestamp: 2025-09-06 03:07:44
+Machine Name: DESKTOP-E71J9BO
+User Domain: DESKTOP-E71J9BO
+User Name: tarek
+
+=== CPU INFORMATION ===
+Number of CPU Cores: 4
+CPU Temperature: Temperature unavailable: Not supported 
+
+=== MEMORY INFORMATION ===
+Total RAM Size: 10.96 GB (11,767,160,832 bytes)
+
+=== OPERATING SYSTEM ===
+OS: Microsoft Windows 10 Pro
+Version: 10.0.19041
+Architecture: 64-bit
+Build Number: 19041
+Install Date: 4/8/2025 10:15:10 PM
+Last Boot: 9/6/2025 2:21:41 AM
+
+=== DISK INFORMATION ===
+Disk: ST500DM002-1BD142 ATA Device | Serial: Z6E1DZD4 | Size: 465.8 GB
+Disk: SAMSUNG MZ7TE128HMGR-000L1 ATA Device | Serial: S1GFNEAFC05326 | Size: 119.2 GB
+Disk: TOSHIBA DT01ACA050 ATA Device | Serial: 5771ZK5AS | Size: 465.8 GB
+
+=== END LOG ===

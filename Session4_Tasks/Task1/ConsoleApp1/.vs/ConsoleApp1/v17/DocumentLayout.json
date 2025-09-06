@@ -1,7 +1,16 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "G:\\InnoTech\\Sesstion_2\\Sesstion2_Tasks\\Session4_Tasks\\Task1\\ConsoleApp1\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{FC8F5F4E-97C8-434F-A0C1-E0107AFEC878}|ConsoleApp1\\ConsoleApp1.csproj|g:\\innotech\\sesstion_2\\sesstion2_tasks\\session4_tasks\\task1\\consoleapp1\\consoleapp1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC8F5F4E-97C8-434F-A0C1-E0107AFEC878}|ConsoleApp1\\ConsoleApp1.csproj|solutionrelative:consoleapp1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC8F5F4E-97C8-434F-A0C1-E0107AFEC878}|ConsoleApp1\\ConsoleApp1.csproj|g:\\innotech\\sesstion_2\\sesstion2_tasks\\session4_tasks\\task1\\consoleapp1\\consoleapp1\\systeminformation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC8F5F4E-97C8-434F-A0C1-E0107AFEC878}|ConsoleApp1\\ConsoleApp1.csproj|solutionrelative:consoleapp1\\systeminformation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -34,6 +43,32 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SystemInformation.cs",
+              "DocumentMoniker": "G:\\InnoTech\\Sesstion_2\\Sesstion2_Tasks\\Session4_Tasks\\Task1\\ConsoleApp1\\ConsoleApp1\\SystemInformation.cs",
+              "RelativeDocumentMoniker": "ConsoleApp1\\SystemInformation.cs",
+              "ToolTip": "G:\\InnoTech\\Sesstion_2\\Sesstion2_Tasks\\Session4_Tasks\\Task1\\ConsoleApp1\\ConsoleApp1\\SystemInformation.cs",
+              "RelativeToolTip": "ConsoleApp1\\SystemInformation.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-06T01:06:10.142Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "G:\\InnoTech\\Sesstion_2\\Sesstion2_Tasks\\Session4_Tasks\\Task1\\ConsoleApp1\\ConsoleApp1\\Program.cs",
+              "RelativeDocumentMoniker": "ConsoleApp1\\Program.cs",
+              "ToolTip": "G:\\InnoTech\\Sesstion_2\\Sesstion2_Tasks\\Session4_Tasks\\Task1\\ConsoleApp1\\ConsoleApp1\\Program.cs",
+              "RelativeToolTip": "ConsoleApp1\\Program.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAgwC0AAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-06T01:05:06.633Z",
+              "EditorCaption": ""
             }
           ]
         }
