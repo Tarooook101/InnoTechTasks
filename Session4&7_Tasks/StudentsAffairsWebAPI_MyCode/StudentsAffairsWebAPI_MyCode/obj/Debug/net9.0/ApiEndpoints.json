@@ -1,0 +1,292 @@
+[
+  {
+    "ContainingType": "StudentsAffairsWebAPI_MyCode.Controllers.StudentsController",
+    "Method": "FillStudents",
+    "RelativePath": "api/Students",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "desiredCount",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "StudentsAffairsWebAPI_MyCode.Controllers.StudentsController",
+    "Method": "GetAll",
+    "RelativePath": "api/Students",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[StudentsAffairsWebAPI_MyCode.Models.Student, StudentsAffairsWebAPI_MyCode, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "StudentsAffairsWebAPI_MyCode.Controllers.StudentsController",
+    "Method": "Post",
+    "RelativePath": "api/Students",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "student",
+        "Type": "StudentsAffairsWebAPI_MyCode.Models.Student",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "StudentsAffairsWebAPI_MyCode.Controllers.StudentsController",
+    "Method": "Update",
+    "RelativePath": "api/Students",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "student",
+        "Type": "StudentsAffairsWebAPI_MyCode.Models.Student",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "StudentsAffairsWebAPI_MyCode.Controllers.StudentsController",
+    "Method": "Delete",
+    "RelativePath": "api/Students",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "student",
+        "Type": "StudentsAffairsWebAPI_MyCode.Models.Student",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "StudentsAffairsWebAPI_MyCode.Controllers.StudentsController",
+    "Method": "GetById",
+    "RelativePath": "api/Students/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "StudentsAffairsWebAPI_MyCode.Controllers.StudentsController",
+    "Method": "Delete",
+    "RelativePath": "api/Students/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "StudentsAffairsWebAPI_MyCode.Controllers.StudentsController",
+    "Method": "DeleteAll",
+    "RelativePath": "api/Students/all",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "StudentsAffairsWebAPI_MyCode.Controllers.StudentsController",
+    "Method": "DeleteAllWithConfirmation",
+    "RelativePath": "api/Students/all/confirm",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "confirm",
+        "Type": "System.Boolean",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "StudentsAffairsWebAPI_MyCode.Controllers.TeachersController",
+    "Method": "Get",
+    "RelativePath": "api/Teachers",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[StudentsAffairsWebAPI_MyCode.Models.Teacher, StudentsAffairsWebAPI_MyCode, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "StudentsAffairsWebAPI_MyCode.Controllers.TeachersController",
+    "Method": "Post",
+    "RelativePath": "api/Teachers",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "teacher",
+        "Type": "StudentsAffairsWebAPI_MyCode.Models.Teacher",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "StudentsAffairsWebAPI_MyCode.Controllers.TeachersController",
+    "Method": "Update",
+    "RelativePath": "api/Teachers",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "teacher",
+        "Type": "StudentsAffairsWebAPI_MyCode.Models.Teacher",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "StudentsAffairsWebAPI_MyCode.Controllers.TeachersController",
+    "Method": "Delete",
+    "RelativePath": "api/Teachers",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "teacher",
+        "Type": "StudentsAffairsWebAPI_MyCode.Models.Teacher",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "StudentsAffairsWebAPI_MyCode.Controllers.TeachersController",
+    "Method": "GetById",
+    "RelativePath": "api/Teachers/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "StudentsAffairsWebAPI_MyCode.Controllers.TeachersController",
+    "Method": "UpdateById",
+    "RelativePath": "api/Teachers/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "teacher",
+        "Type": "StudentsAffairsWebAPI_MyCode.Models.Teacher",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "StudentsAffairsWebAPI_MyCode.Controllers.TeachersController",
+    "Method": "DeleteById",
+    "RelativePath": "api/Teachers/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "StudentsAffairsWebAPI_MyCode.Controllers.WeatherForecastController",
+    "Method": "Get",
+    "RelativePath": "WeatherForecast",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[StudentsAffairsWebAPI_MyCode.WeatherForecast, StudentsAffairsWebAPI_MyCode, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "GetWeatherForecast"
+  }
+]

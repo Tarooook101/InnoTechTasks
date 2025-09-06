@@ -1,0 +1,15 @@
+G:\InnoTech\Sesstion_2\Sesstion2_Tasks\Session4_Tasks\Task2\ConsoleApp2\ConsoleApp2\bin\Debug\net9.0\ConsoleApp2.exe
+G:\InnoTech\Sesstion_2\Sesstion2_Tasks\Session4_Tasks\Task2\ConsoleApp2\ConsoleApp2\bin\Debug\net9.0\ConsoleApp2.deps.json
+G:\InnoTech\Sesstion_2\Sesstion2_Tasks\Session4_Tasks\Task2\ConsoleApp2\ConsoleApp2\bin\Debug\net9.0\ConsoleApp2.runtimeconfig.json
+G:\InnoTech\Sesstion_2\Sesstion2_Tasks\Session4_Tasks\Task2\ConsoleApp2\ConsoleApp2\bin\Debug\net9.0\ConsoleApp2.dll
+G:\InnoTech\Sesstion_2\Sesstion2_Tasks\Session4_Tasks\Task2\ConsoleApp2\ConsoleApp2\bin\Debug\net9.0\ConsoleApp2.pdb
+G:\InnoTech\Sesstion_2\Sesstion2_Tasks\Session4_Tasks\Task2\ConsoleApp2\ConsoleApp2\obj\Debug\net9.0\ConsoleApp2.GeneratedMSBuildEditorConfig.editorconfig
+G:\InnoTech\Sesstion_2\Sesstion2_Tasks\Session4_Tasks\Task2\ConsoleApp2\ConsoleApp2\obj\Debug\net9.0\ConsoleApp2.AssemblyInfoInputs.cache
+G:\InnoTech\Sesstion_2\Sesstion2_Tasks\Session4_Tasks\Task2\ConsoleApp2\ConsoleApp2\obj\Debug\net9.0\ConsoleApp2.AssemblyInfo.cs
+G:\InnoTech\Sesstion_2\Sesstion2_Tasks\Session4_Tasks\Task2\ConsoleApp2\ConsoleApp2\obj\Debug\net9.0\ConsoleApp2.csproj.CoreCompileInputs.cache
+G:\InnoTech\Sesstion_2\Sesstion2_Tasks\Session4_Tasks\Task2\ConsoleApp2\ConsoleApp2\obj\Debug\net9.0\ConsoleApp2.sourcelink.json
+G:\InnoTech\Sesstion_2\Sesstion2_Tasks\Session4_Tasks\Task2\ConsoleApp2\ConsoleApp2\obj\Debug\net9.0\ConsoleApp2.dll
+G:\InnoTech\Sesstion_2\Sesstion2_Tasks\Session4_Tasks\Task2\ConsoleApp2\ConsoleApp2\obj\Debug\net9.0\refint\ConsoleApp2.dll
+G:\InnoTech\Sesstion_2\Sesstion2_Tasks\Session4_Tasks\Task2\ConsoleApp2\ConsoleApp2\obj\Debug\net9.0\ConsoleApp2.pdb
+G:\InnoTech\Sesstion_2\Sesstion2_Tasks\Session4_Tasks\Task2\ConsoleApp2\ConsoleApp2\obj\Debug\net9.0\ConsoleApp2.genruntimeconfig.cache
+G:\InnoTech\Sesstion_2\Sesstion2_Tasks\Session4_Tasks\Task2\ConsoleApp2\ConsoleApp2\obj\Debug\net9.0\ref\ConsoleApp2.dll

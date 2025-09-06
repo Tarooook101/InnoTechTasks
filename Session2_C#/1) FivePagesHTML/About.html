@@ -1,0 +1,621 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About & Contact - Student Management System</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary: #4f46e5;
+            --primary-light: #818cf8;
+            --primary-dark: #3730a3;
+            --secondary: #64748b;
+            --success: #10b981;
+            --warning: #f59e0b;
+            --danger: #ef4444;
+            --bg-primary: #ffffff;
+            --bg-secondary: #f8fafc;
+            --bg-tertiary: #f1f5f9;
+            --text-primary: #1e293b;
+            --text-secondary: #64748b;
+            --border-light: #e2e8f0;
+        }
+
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background-color: var(--bg-secondary);
+            color: var(--text-primary);
+            padding-top: 70px;
+        }
+
+        .navbar {
+            background: var(--bg-primary) !important;
+            border-bottom: 1px solid var(--border-light);
+            box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+            height: 70px;
+        }
+
+        .navbar-brand {
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: var(--primary) !important;
+        }
+
+        .nav-link {
+            font-weight: 500;
+            color: var(--secondary) !important;
+            transition: all 0.15s ease-in-out;
+            border-radius: 0.5rem;
+            margin: 0 0.25rem;
+        }
+
+        .nav-link:hover, .nav-link.active {
+            color: var(--primary) !important;
+            background-color: rgba(79, 70, 229, 0.1);
+        }
+
+        .hero-section {
+            background: linear-gradient(135deg, var(--primary) 0%, var(--primary-light) 100%);
+            color: white;
+            padding: 4rem 0;
+            margin-bottom: 4rem;
+        }
+
+        .content-card {
+            background: var(--bg-primary);
+            border: 1px solid var(--border-light);
+            border-radius: 0.75rem;
+            padding: 2rem;
+            box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+            margin-bottom: 2rem;
+            transition: all 0.3s ease-in-out;
+        }
+
+        .content-card:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 25px -5px rgba(0, 0, 0, 0.1);
+        }
+
+        .section-title {
+            color: var(--text-primary);
+            font-weight: 600;
+            font-size: 1.75rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .team-member {
+            text-align: center;
+            padding: 1.5rem;
+            background: var(--bg-primary);
+            border: 1px solid var(--border-light);
+            border-radius: 0.75rem;
+            transition: all 0.3s ease-in-out;
+        }
+
+        .team-member:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 25px -5px rgba(0, 0, 0, 0.1);
+        }
+
+        .team-avatar {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            background: linear-gradient(135deg, var(--primary) 0%, var(--primary-light) 100%);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 1rem;
+            font-size: 2.5rem;
+            color: white;
+        }
+
+        .team-name {
+            font-weight: 600;
+            font-size: 1.125rem;
+            color: var(--text-primary);
+            margin-bottom: 0.25rem;
+        }
+
+        .team-role {
+            color: var(--text-secondary);
+            font-size: 0.875rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .team-social {
+            display: flex;
+            justify-content: center;
+            gap: 0.75rem;
+        }
+
+        .team-social a {
+            color: var(--text-secondary);
+            font-size: 1.25rem;
+            transition: all 0.15s ease-in-out;
+        }
+
+        .team-social a:hover {
+            color: var(--primary);
+            transform: translateY(-2px);
+        }
+
+        .form-control, .form-select {
+            border: 1px solid #d1d5db;
+            border-radius: 0.5rem;
+            padding: 0.75rem 1rem;
+            transition: all 0.15s ease-in-out;
+        }
+
+        .form-control:focus, .form-select:focus {
+            border-color: var(--primary);
+            box-shadow: 0 0 0 3px rgba(79, 70, 229, 0.1);
+        }
+
+        .form-label {
+            font-size: 0.875rem;
+            font-weight: 500;
+            color: #374151;
+            margin-bottom: 0.5rem;
+        }
+
+        .btn-primary {
+            background-color: var(--primary);
+            border-color: var(--primary);
+            font-weight: 500;
+            padding: 0.75rem 1.5rem;
+            transition: all 0.15s ease-in-out;
+        }
+
+        .btn-primary:hover {
+            background-color: var(--primary-dark);
+            border-color: var(--primary-dark);
+            transform: translateY(-1px);
+        }
+
+        .contact-info {
+            background: var(--bg-primary);
+            border: 1px solid var(--border-light);
+            border-radius: 0.75rem;
+            padding: 2rem;
+        }
+
+        .contact-item {
+            display: flex;
+            align-items: center;
+            margin-bottom: 1.5rem;
+        }
+
+        .contact-icon {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            background: rgba(79, 70, 229, 0.1);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: var(--primary);
+            font-size: 1.25rem;
+            margin-right: 1rem;
+        }
+
+        .contact-details h6 {
+            font-weight: 600;
+            margin-bottom: 0.25rem;
+            color: var(--text-primary);
+        }
+
+        .contact-details p {
+            color: var(--text-secondary);
+            margin-bottom: 0;
+            font-size: 0.875rem;
+        }
+
+        .stats-section {
+            background: var(--bg-primary);
+            border: 1px solid var(--border-light);
+            border-radius: 0.75rem;
+            padding: 2rem;
+            text-align: center;
+        }
+
+        .stat-item {
+            margin-bottom: 2rem;
+        }
+
+        .stat-number {
+            font-size: 2.5rem;
+            font-weight: 700;
+            color: var(--primary);
+            display: block;
+        }
+
+        .stat-label {
+            color: var(--text-secondary);
+            font-size: 0.875rem;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+        }
+
+        .footer {
+            background: var(--text-primary);
+            color: #94a3b8;
+            padding: 2rem 0;
+            margin-top: 4rem;
+        }
+
+        .footer a {
+            color: #cbd5e1;
+            text-decoration: none;
+            transition: color 0.15s ease-in-out;
+        }
+
+        .footer a:hover {
+            color: white;
+        }
+
+        .mission-values {
+            background: linear-gradient(135deg, var(--bg-tertiary) 0%, var(--bg-primary) 100%);
+            border-radius: 0.75rem;
+            padding: 2rem;
+            border: 1px solid var(--border-light);
+        }
+
+        .value-item {
+            text-align: center;
+            padding: 1rem;
+        }
+
+        .value-icon {
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            background: var(--primary);
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 1rem;
+            font-size: 1.5rem;
+        }
+
+        .value-title {
+            font-weight: 600;
+            color: var(--text-primary);
+            margin-bottom: 0.5rem;
+        }
+
+        .value-description {
+            color: var(--text-secondary);
+            font-size: 0.875rem;
+        }
+
+        @media (max-width: 768px) {
+            .hero-section {
+                padding: 2rem 0;
+            }
+
+            .content-card, .contact-info {
+                padding: 1.5rem;
+            }
+
+            .team-member {
+                margin-bottom: 1.5rem;
+            }
+        }
+
+        @media (prefers-reduced-motion: reduce) {
+            * {
+                animation: none !important;
+                transition: none !important;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#"><i class="bi bi-mortarboard-fill me-2"></i>EduManage</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="Index.html"><i class="bi bi-house me-1"></i>Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="StudentList.html"><i class="bi bi-people me-1"></i>Students</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="AddStudent.html"><i class="bi bi-person-plus me-1"></i>Add Student</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Courses.html"><i class="bi bi-journal-bookmark me-1"></i>Courses</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="About.html"><i class="bi bi-info-circle me-1"></i>About</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero-section">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <h1 class="display-4 fw-bold mb-4">About EduManage</h1>
+                    <p class="lead mb-4">Empowering educational institutions with comprehensive student management solutions that streamline operations and enhance the learning experience.</p>
+                </div>
+                <div class="col-lg-6 text-center">
+                    <div class="bg-white bg-opacity-10 rounded-3 p-4" style="backdrop-filter: blur(10px);">
+                        <i class="bi bi-people display-1 mb-3"></i>
+                        <h4>Connecting Education</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Main Content -->
+    <div class="container">
+        <!-- About Section -->
+        <div class="row">
+            <div class="col-lg-8">
+                <div class="content-card">
+                    <h2 class="section-title">Our Mission</h2>
+                    <p class="lead mb-4">
+                        At EduManage, we believe that education is the foundation of progress. Our mission is to provide educational institutions with powerful, intuitive tools that simplify student management and foster academic excellence.
+                    </p>
+                    
+                    <div class="mission-values mb-4">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <div class="value-item">
+                                    <div class="value-icon">
+                                        <i class="bi bi-lightbulb"></i>
+                                    </div>
+                                    <h5 class="value-title">Innovation</h5>
+                                    <p class="value-description">Continuously evolving our platform with cutting-edge technology.</p>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="value-item">
+                                    <div class="value-icon">
+                                        <i class="bi bi-shield-check"></i>
+                                    </div>
+                                    <h5 class="value-title">Security</h5>
+                                    <p class="value-description">Protecting student data with enterprise-grade security measures.</p>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="value-item">
+                                    <div class="value-icon">
+                                        <i class="bi bi-people"></i>
+                                    </div>
+                                    <h5 class="value-title">Community</h5>
+                                    <p class="value-description">Building stronger connections between students, educators, and institutions.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <h3 class="section-title">Our Story</h3>
+                    <p>
+                        Founded in 2020 by a team of educators and technology professionals, EduManage was born from the need to bridge the gap between traditional educational administration and modern digital solutions. We recognized that many institutions were struggling with outdated systems that hindered rather than helped their educational mission.
+                    </p>
+                    <p>
+                        Today, we serve over 500 educational institutions worldwide, helping them manage more than 100,000 students efficiently and effectively. Our platform has evolved from a simple student registry to a comprehensive management system that supports the entire educational ecosystem.
+                    </p>
+                </div>
+            </div>
+            
+            <div class="col-lg-4">
+                <div class="stats-section">
+                    <h3 class="section-title mb-4">Our Impact</h3>
+                    <div class="stat-item">
+                        <span class="stat-number">500+</span>
+                        <div class="stat-label">Institutions Served</div>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">100K+</span>
+                        <div class="stat-label">Students Managed</div>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">50+</span>
+                        <div class="stat-label">Countries Reached</div>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">99.9%</span>
+                        <div class="stat-label">Uptime Achieved</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Team Section -->
+        <div class="content-card">
+            <h2 class="section-title text-center mb-5">Meet Our Team</h2>
+            <div class="row">
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="team-member">
+                        <div class="team-avatar">
+                            <i class="bi bi-person"></i>
+                        </div>
+                        <h5 class="team-name">Dr. Sarah Johnson</h5>
+                        <p class="team-role">CEO & Founder</p>
+                        <div class="team-social">
+                            <a href="#"><i class="bi bi-linkedin"></i></a>
+                            <a href="#"><i class="bi bi-twitter"></i></a>
+                            <a href="#"><i class="bi bi-envelope"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="team-member">
+                        <div class="team-avatar">
+                            <i class="bi bi-person"></i>
+                        </div>
+                        <h5 class="team-name">Michael Chen</h5>
+                        <p class="team-role">CTO</p>
+                        <div class="team-social">
+                            <a href="#"><i class="bi bi-linkedin"></i></a>
+                            <a href="#"><i class="bi bi-github"></i></a>
+                            <a href="#"><i class="bi bi-envelope"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="team-member">
+                        <div class="team-avatar">
+                            <i class="bi bi-person"></i>
+                        </div>
+                        <h5 class="team-name">Emily Rodriguez</h5>
+                        <p class="team-role">Head of Education</p>
+                        <div class="team-social">
+                            <a href="#"><i class="bi bi-linkedin"></i></a>
+                            <a href="#"><i class="bi bi-twitter"></i></a>
+                            <a href="#"><i class="bi bi-envelope"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="team-member">
+                        <div class="team-avatar">
+                            <i class="bi bi-person"></i>
+                        </div>
+                        <h5 class="team-name">David Kim</h5>
+                        <p class="team-role">Head of Design</p>
+                        <div class="team-social">
+                            <a href="#"><i class="bi bi-linkedin"></i></a>
+                            <a href="#"><i class="bi bi-dribbble"></i></a>
+                            <a href="#"><i class="bi bi-envelope"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Contact Section -->
+        <div class="row">
+            <div class="col-lg-8">
+                <div class="content-card">
+                    <h2 class="section-title">Get In Touch</h2>
+                    <p class="mb-4">Have questions about EduManage? We'd love to hear from you. Send us a message and we'll respond as soon as possible.</p>
+                    
+                    <form>
+                        <div class="row">
+                            <div class="col-md-6 mb-3">
+                                <label for="name" class="form-label">Full Name</label>
+                                <input type="text" class="form-control" id="name" placeholder="Your Name" required>
+                            </div>
+                            <div class="col-md-6 mb-3">
+                                <label for="email" class="form-label">Email Address</label>
+                                <input type="email" class="form-control" id="email" placeholder="your.email@example.com" required>
+                            </div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="subject" class="form-label">Subject</label>
+                            <select class="form-select" id="subject" required>
+                                <option selected>Select a subject</option>
+                                <option value="general">General Inquiry</option>
+                                <option value="support">Technical Support</option>
+                                <option value="sales">Sales Question</option>
+                                <option value="partnership">Partnership</option>
+                                <option value="feedback">Feedback</option>
+                            </select>
+                        </div>
+                        <div class="mb-3">
+                            <label for="message" class="form-label">Message</label>
+                            <textarea class="form-control" id="message" rows="5" placeholder="Tell us how we can help you..." required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">
+                            <i class="bi bi-send me-2"></i>Send Message
+                        </button>
+                    </form>
+                </div>
+            </div>
+            
+            <div class="col-lg-4">
+                <div class="contact-info">
+                    <h3 class="section-title">Contact Information</h3>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="bi bi-geo-alt"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h6>Address</h6>
+                            <p>123 Education Street<br>Learning City, LC 12345<br>United States</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="bi bi-telephone"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h6>Phone</h6>
+                            <p>+1 (555) 123-4567<br>Mon-Fri 9AM-6PM EST</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="bi bi-envelope"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h6>Email</h6>
+                            <p>info@edumanage.com<br>support@edumanage.com</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="bi bi-globe"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h6>Website</h6>
+                            <p>www.edumanage.com<br>Follow us on social media</p>
+                        </div>
+                    </div>
+
+                    <div class="text-center mt-4">
+                        <h6 class="mb-3">Follow Us</h6>
+                        <div class="d-flex justify-content-center gap-3">
+                            <a href="#" class="text-primary fs-4"><i class="bi bi-linkedin"></i></a>
+                            <a href="#" class="text-primary fs-4"><i class="bi bi-twitter"></i></a>
+                            <a href="#" class="text-primary fs-4"><i class="bi bi-facebook"></i></a>
+                            <a href="#" class="text-primary fs-4"><i class="bi bi-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <p class="mb-0">&copy; 2024 EduManage. All rights reserved.</p>
+                </div>
+                <div class="col-md-6 text-md-end">
+                    <a href="#" class="me-3">Privacy Policy</a>
+                    <a href="#" class="me-3">Terms of Service</a>
+                    <a href="#">Support</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "DvW7VW/ZdYQ=",
+  "success": true,
+  "projectFilePath": "G:\\InnoTech\\Sesstion_2\\Sesstion2_Tasks\\Session4&7_Tasks\\StudentsAffairsWebAPI_MyCode\\StudentsAffairsWebAPI_MyCode\\StudentsAffairsWebAPI_MyCode.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\tarek\\.nuget\\packages\\microsoft.aspnetcore.openapi\\9.0.8\\microsoft.aspnetcore.openapi.9.0.8.nupkg.sha512",
+    "C:\\Users\\tarek\\.nuget\\packages\\microsoft.openapi\\1.6.17\\microsoft.openapi.1.6.17.nupkg.sha512"
+  ],
+  "logs": []
+}
