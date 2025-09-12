@@ -1,7 +1,12 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "G:\\InnoTech\\Sesstion_2\\Sesstion2_Tasks\\2) SumNumbersApp\\SumNumbers\\",
-  "Documents": [],
+  "WorkspaceRootPath": "G:\\InnoTech\\Sesstion_2\\Sesstion2_Tasks\\Session2_C#\\2) SumNumbersApp\\SumNumbers\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7A608E37-EBC9-4A7D-9585-609851E033E2}|SumNumbers\\SumNumbers.csproj|g:\\innotech\\sesstion_2\\sesstion2_tasks\\session2_c#\\2) sumnumbersapp\\sumnumbers\\sumnumbers\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A608E37-EBC9-4A7D-9585-609851E033E2}|SumNumbers\\SumNumbers.csproj|solutionrelative:sumnumbers\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,7 +14,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -34,6 +39,19 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "G:\\InnoTech\\Sesstion_2\\Sesstion2_Tasks\\Session2_C#\\2) SumNumbersApp\\SumNumbers\\SumNumbers\\Program.cs",
+              "RelativeDocumentMoniker": "SumNumbers\\Program.cs",
+              "ToolTip": "G:\\InnoTech\\Sesstion_2\\Sesstion2_Tasks\\Session2_C#\\2) SumNumbersApp\\SumNumbers\\SumNumbers\\Program.cs",
+              "RelativeToolTip": "SumNumbers\\Program.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAUwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-06T16:49:43.451Z",
+              "EditorCaption": ""
             }
           ]
         }

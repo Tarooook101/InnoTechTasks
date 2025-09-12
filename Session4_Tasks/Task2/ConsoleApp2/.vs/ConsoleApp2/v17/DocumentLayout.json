@@ -1,7 +1,24 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "G:\\InnoTech\\Sesstion_2\\Sesstion2_Tasks\\Session4_Tasks\\Task2\\ConsoleApp2\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A6D67EC3-9839-4CFA-9E9A-1D2925AF7826}|ConsoleApp2\\ConsoleApp2.csproj|g:\\innotech\\sesstion_2\\sesstion2_tasks\\session4_tasks\\task2\\consoleapp2\\consoleapp2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A6D67EC3-9839-4CFA-9E9A-1D2925AF7826}|ConsoleApp2\\ConsoleApp2.csproj|solutionrelative:consoleapp2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6D67EC3-9839-4CFA-9E9A-1D2925AF7826}|ConsoleApp2\\ConsoleApp2.csproj|g:\\innotech\\sesstion_2\\sesstion2_tasks\\session4_tasks\\task2\\consoleapp2\\consoleapp2\\services\\teacherservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A6D67EC3-9839-4CFA-9E9A-1D2925AF7826}|ConsoleApp2\\ConsoleApp2.csproj|solutionrelative:consoleapp2\\services\\teacherservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6D67EC3-9839-4CFA-9E9A-1D2925AF7826}|ConsoleApp2\\ConsoleApp2.csproj|g:\\innotech\\sesstion_2\\sesstion2_tasks\\session4_tasks\\task2\\consoleapp2\\consoleapp2\\services\\serviceresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A6D67EC3-9839-4CFA-9E9A-1D2925AF7826}|ConsoleApp2\\ConsoleApp2.csproj|solutionrelative:consoleapp2\\services\\serviceresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6D67EC3-9839-4CFA-9E9A-1D2925AF7826}|ConsoleApp2\\ConsoleApp2.csproj|g:\\innotech\\sesstion_2\\sesstion2_tasks\\session4_tasks\\task2\\consoleapp2\\consoleapp2\\models\\teacher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A6D67EC3-9839-4CFA-9E9A-1D2925AF7826}|ConsoleApp2\\ConsoleApp2.csproj|solutionrelative:consoleapp2\\models\\teacher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,8 +26,34 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Teacher.cs",
+              "DocumentMoniker": "G:\\InnoTech\\Sesstion_2\\Sesstion2_Tasks\\Session4_Tasks\\Task2\\ConsoleApp2\\ConsoleApp2\\Models\\Teacher.cs",
+              "RelativeDocumentMoniker": "ConsoleApp2\\Models\\Teacher.cs",
+              "ToolTip": "G:\\InnoTech\\Sesstion_2\\Sesstion2_Tasks\\Session4_Tasks\\Task2\\ConsoleApp2\\ConsoleApp2\\Models\\Teacher.cs",
+              "RelativeToolTip": "ConsoleApp2\\Models\\Teacher.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-06T15:23:45.582Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "G:\\InnoTech\\Sesstion_2\\Sesstion2_Tasks\\Session4_Tasks\\Task2\\ConsoleApp2\\ConsoleApp2\\Program.cs",
+              "RelativeDocumentMoniker": "ConsoleApp2\\Program.cs",
+              "ToolTip": "G:\\InnoTech\\Sesstion_2\\Sesstion2_Tasks\\Session4_Tasks\\Task2\\ConsoleApp2\\ConsoleApp2\\Program.cs",
+              "RelativeToolTip": "ConsoleApp2\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAABKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-06T15:15:47.111Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
@@ -34,6 +77,32 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TeacherService.cs",
+              "DocumentMoniker": "G:\\InnoTech\\Sesstion_2\\Sesstion2_Tasks\\Session4_Tasks\\Task2\\ConsoleApp2\\ConsoleApp2\\Services\\TeacherService.cs",
+              "RelativeDocumentMoniker": "ConsoleApp2\\Services\\TeacherService.cs",
+              "ToolTip": "G:\\InnoTech\\Sesstion_2\\Sesstion2_Tasks\\Session4_Tasks\\Task2\\ConsoleApp2\\ConsoleApp2\\Services\\TeacherService.cs",
+              "RelativeToolTip": "ConsoleApp2\\Services\\TeacherService.cs",
+              "ViewState": "AgIAAEwAAAAAAAAAAAAgwDIAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-06T15:10:53.16Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ServiceResult.cs",
+              "DocumentMoniker": "G:\\InnoTech\\Sesstion_2\\Sesstion2_Tasks\\Session4_Tasks\\Task2\\ConsoleApp2\\ConsoleApp2\\Services\\ServiceResult.cs",
+              "RelativeDocumentMoniker": "ConsoleApp2\\Services\\ServiceResult.cs",
+              "ToolTip": "G:\\InnoTech\\Sesstion_2\\Sesstion2_Tasks\\Session4_Tasks\\Task2\\ConsoleApp2\\ConsoleApp2\\Services\\ServiceResult.cs",
+              "RelativeToolTip": "ConsoleApp2\\Services\\ServiceResult.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-06T15:10:35.453Z",
+              "EditorCaption": ""
             }
           ]
         }

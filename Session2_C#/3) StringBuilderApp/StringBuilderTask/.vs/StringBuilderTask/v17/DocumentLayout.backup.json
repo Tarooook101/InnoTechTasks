@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "G:\\InnoTech\\Sesstion_2\\Sesstion2_Tasks\\3) StringBuilderApp\\StringBuilderTask\\",
+  "WorkspaceRootPath": "G:\\InnoTech\\Sesstion_2\\Sesstion2_Tasks\\Session2_C#\\3) StringBuilderApp\\StringBuilderTask\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{EE0ED9F8-F9BC-4751-A4C5-78024FD3DC2B}|StringBuilderTask\\StringBuilderTask.csproj|g:\\innotech\\sesstion_2\\sesstion2_tasks\\3) stringbuilderapp\\stringbuildertask\\stringbuildertask\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{EE0ED9F8-F9BC-4751-A4C5-78024FD3DC2B}|StringBuilderTask\\StringBuilderTask.csproj|g:\\innotech\\sesstion_2\\sesstion2_tasks\\session2_c#\\3) stringbuilderapp\\stringbuildertask\\stringbuildertask\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EE0ED9F8-F9BC-4751-A4C5-78024FD3DC2B}|StringBuilderTask\\StringBuilderTask.csproj|solutionrelative:stringbuildertask\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -44,13 +44,13 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "G:\\InnoTech\\Sesstion_2\\Sesstion2_Tasks\\3) StringBuilderApp\\StringBuilderTask\\StringBuilderTask\\Program.cs",
+              "DocumentMoniker": "G:\\InnoTech\\Sesstion_2\\Sesstion2_Tasks\\Session2_C#\\3) StringBuilderApp\\StringBuilderTask\\StringBuilderTask\\Program.cs",
               "RelativeDocumentMoniker": "StringBuilderTask\\Program.cs",
-              "ToolTip": "G:\\InnoTech\\Sesstion_2\\Sesstion2_Tasks\\3) StringBuilderApp\\StringBuilderTask\\StringBuilderTask\\Program.cs",
+              "ToolTip": "G:\\InnoTech\\Sesstion_2\\Sesstion2_Tasks\\Session2_C#\\3) StringBuilderApp\\StringBuilderTask\\StringBuilderTask\\Program.cs",
               "RelativeToolTip": "StringBuilderTask\\Program.cs",
-              "ViewState": "AgIAAFEAAAAAAAAAAAAAAHgAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-22T01:44:03.86Z",
+              "WhenOpened": "2025-09-06T16:56:45.055Z",
               "EditorCaption": ""
             }
           ]

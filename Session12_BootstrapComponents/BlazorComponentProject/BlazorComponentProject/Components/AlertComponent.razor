@@ -1,0 +1,20 @@
+﻿@if (IsVisible)
+{
+    <div class="alert @GetAlertClass() @(IsDismissible ? "alert-dismissible" : "")" role="alert">
+        @if (!string.IsNullOrEmpty(IconClass))
+        {
+            <i class="@IconClass me-2"></i>
+        }
+        @if (!string.IsNullOrEmpty(Title))
+        {
+            <h6 class="alert-heading">@Title</h6>
+        }
+        @Message
+        @ChildContent
+        @if (IsDismissible)
+        {
+            <button type="button" class="btn-close" @onclick="Hide" aria-label="Close"></button>
+        }
+    </div>
+}
+

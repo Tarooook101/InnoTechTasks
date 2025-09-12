@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "G:\\InnoTech\\Sesstion_2\\Sesstion2_Tasks\\3) StringBuilderApp\\StringBuilderTask\\StringBuilderTask\\StringBuilderTask.csproj": {}
+    "G:\\InnoTech\\Sesstion_2\\Sesstion2_Tasks\\Session2_C#\\3) StringBuilderApp\\StringBuilderTask\\StringBuilderTask\\StringBuilderTask.csproj": {}
   },
   "projects": {
-    "G:\\InnoTech\\Sesstion_2\\Sesstion2_Tasks\\3) StringBuilderApp\\StringBuilderTask\\StringBuilderTask\\StringBuilderTask.csproj": {
+    "G:\\InnoTech\\Sesstion_2\\Sesstion2_Tasks\\Session2_C#\\3) StringBuilderApp\\StringBuilderTask\\StringBuilderTask\\StringBuilderTask.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "G:\\InnoTech\\Sesstion_2\\Sesstion2_Tasks\\3) StringBuilderApp\\StringBuilderTask\\StringBuilderTask\\StringBuilderTask.csproj",
+        "projectUniqueName": "G:\\InnoTech\\Sesstion_2\\Sesstion2_Tasks\\Session2_C#\\3) StringBuilderApp\\StringBuilderTask\\StringBuilderTask\\StringBuilderTask.csproj",
         "projectName": "StringBuilderTask",
-        "projectPath": "G:\\InnoTech\\Sesstion_2\\Sesstion2_Tasks\\3) StringBuilderApp\\StringBuilderTask\\StringBuilderTask\\StringBuilderTask.csproj",
+        "projectPath": "G:\\InnoTech\\Sesstion_2\\Sesstion2_Tasks\\Session2_C#\\3) StringBuilderApp\\StringBuilderTask\\StringBuilderTask\\StringBuilderTask.csproj",
         "packagesPath": "C:\\Users\\tarek\\.nuget\\packages\\",
-        "outputPath": "G:\\InnoTech\\Sesstion_2\\Sesstion2_Tasks\\3) StringBuilderApp\\StringBuilderTask\\StringBuilderTask\\obj\\",
+        "outputPath": "G:\\InnoTech\\Sesstion_2\\Sesstion2_Tasks\\Session2_C#\\3) StringBuilderApp\\StringBuilderTask\\StringBuilderTask\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "D:\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -65,7 +65,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.302/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

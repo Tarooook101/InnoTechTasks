@@ -1,0 +1,29 @@
+﻿<div class="toast-container position-fixed top-0 end-0 p-3">
+    @if (IsVisible)
+    {
+        <div class="toast show" role="alert" aria-live="assertive" aria-atomic="true">
+            @if (!string.IsNullOrEmpty(Title))
+            {
+                <div class="toast-header @GetHeaderClass()">
+                    @if (!string.IsNullOrEmpty(IconClass))
+                    {
+                        <i class="@IconClass me-2"></i>
+                    }
+                    <strong class="me-auto">@Title</strong>
+                    <small>@TimeStamp</small>
+                    <button type="button" class="btn-close" @onclick="Hide" aria-label="Close"></button>
+                </div>
+            }
+            <div class="toast-body @GetBodyClass()">
+                @Message
+                @ChildContent
+                @if (string.IsNullOrEmpty(Title))
+                {
+                    <button type="button" class="btn-close float-end" @onclick="Hide" aria-label="Close"></button>
+                }
+            </div>
+        </div>
+    }
+</div>
+
+

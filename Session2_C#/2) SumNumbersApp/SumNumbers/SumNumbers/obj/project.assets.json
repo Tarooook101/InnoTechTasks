@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "G:\\InnoTech\\Sesstion_2\\Sesstion2_Tasks\\2) SumNumbersApp\\SumNumbers\\SumNumbers\\SumNumbers.csproj",
+      "projectUniqueName": "G:\\InnoTech\\Sesstion_2\\Sesstion2_Tasks\\Session2_C#\\2) SumNumbersApp\\SumNumbers\\SumNumbers\\SumNumbers.csproj",
       "projectName": "SumNumbers",
-      "projectPath": "G:\\InnoTech\\Sesstion_2\\Sesstion2_Tasks\\2) SumNumbersApp\\SumNumbers\\SumNumbers\\SumNumbers.csproj",
+      "projectPath": "G:\\InnoTech\\Sesstion_2\\Sesstion2_Tasks\\Session2_C#\\2) SumNumbersApp\\SumNumbers\\SumNumbers\\SumNumbers.csproj",
       "packagesPath": "C:\\Users\\tarek\\.nuget\\packages\\",
-      "outputPath": "G:\\InnoTech\\Sesstion_2\\Sesstion2_Tasks\\2) SumNumbersApp\\SumNumbers\\SumNumbers\\obj\\",
+      "outputPath": "G:\\InnoTech\\Sesstion_2\\Sesstion2_Tasks\\Session2_C#\\2) SumNumbersApp\\SumNumbers\\SumNumbers\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "D:\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -72,7 +72,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.302/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

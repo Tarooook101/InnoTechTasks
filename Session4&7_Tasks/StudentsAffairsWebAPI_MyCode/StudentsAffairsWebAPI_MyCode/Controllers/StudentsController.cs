@@ -202,7 +202,6 @@ public class StudentsController : ControllerBase
         }
     }
 
-    // BONUS ENDPOINT: Delete All Students with Confirmation
     [HttpDelete("all/confirm")]
     public IActionResult DeleteAllWithConfirmation([FromQuery] bool confirm = false)
     {

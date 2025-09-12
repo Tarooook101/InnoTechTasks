@@ -1,0 +1,25 @@
+﻿<div class="dropdown">
+    <button class="btn @ButtonClass dropdown-toggle"
+            type="button"
+            data-bs-toggle="dropdown"
+            aria-expanded="false">
+        @ButtonText
+    </button>
+    <ul class="dropdown-menu">
+        @if (Items != null)
+        {
+            @foreach (var item in Items)
+            {
+                <li>
+                    <a class="dropdown-item"
+                       href="@item.Url"
+                       @onclick="() => OnItemClick(item)"
+                       @onclick:preventDefault="@(!string.IsNullOrEmpty(item.Url))">
+                        @item.Text
+                    </a>
+                </li>
+            }
+        }
+        @ChildContent
+    </ul>
+</div>

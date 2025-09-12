@@ -19,6 +19,7 @@ public class TeachersController : ControllerBase
         if (fileInfo.Exists)
         {
             string? fileContent = System.IO.File.ReadAllText(filePath);
+
             teachers = JsonSerializer.Deserialize<List<Teacher>>(fileContent);
         }
 

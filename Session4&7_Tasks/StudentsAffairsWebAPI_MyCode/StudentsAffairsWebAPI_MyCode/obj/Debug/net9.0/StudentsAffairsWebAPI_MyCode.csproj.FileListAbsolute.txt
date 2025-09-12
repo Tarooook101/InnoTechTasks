@@ -32,3 +32,5 @@ G:\InnoTech\Sesstion_2\Sesstion2_Tasks\Session4&7_Tasks\StudentsAffairsWebAPI_My
 G:\InnoTech\Sesstion_2\Sesstion2_Tasks\Session4&7_Tasks\StudentsAffairsWebAPI_MyCode\StudentsAffairsWebAPI_MyCode\obj\Debug\net9.0\StudentsAffairsWebAPI_MyCode.pdb
 G:\InnoTech\Sesstion_2\Sesstion2_Tasks\Session4&7_Tasks\StudentsAffairsWebAPI_MyCode\StudentsAffairsWebAPI_MyCode\obj\Debug\net9.0\StudentsAffairsWebAPI_MyCode.genruntimeconfig.cache
 G:\InnoTech\Sesstion_2\Sesstion2_Tasks\Session4&7_Tasks\StudentsAffairsWebAPI_MyCode\StudentsAffairsWebAPI_MyCode\obj\Debug\net9.0\ref\StudentsAffairsWebAPI_MyCode.dll
+G:\InnoTech\Sesstion_2\Sesstion2_Tasks\Session4&7_Tasks\StudentsAffairsWebAPI_MyCode\StudentsAffairsWebAPI_MyCode\bin\Debug\net9.0\Teachers.json
+G:\InnoTech\Sesstion_2\Sesstion2_Tasks\Session4&7_Tasks\StudentsAffairsWebAPI_MyCode\StudentsAffairsWebAPI_MyCode\bin\Debug\net9.0\Students.json

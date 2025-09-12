@@ -8,7 +8,7 @@ class Program
         try
         {
             Console.WriteLine("Teacher Management System");
-            Console.WriteLine("=========================");
+            Console.WriteLine("====================================================");
 
             var teacherService = new TeacherService();
 
