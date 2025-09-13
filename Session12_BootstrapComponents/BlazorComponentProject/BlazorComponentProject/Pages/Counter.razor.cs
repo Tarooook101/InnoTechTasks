@@ -10,12 +10,10 @@ public partial class Counter
     private bool showToast = false;
     private bool showModal = false;
 
-    // Component references
     private AlertComponent? alertComponent;
     private ToastComponent? toastComponent;
     private ModalComponent? modalComponent;
 
-    // Dropdown items
     private List<DropDownComponent.DropDownItem> dropdownItems = new()
     {
         new() { Text = "Reset", Data = "reset" },
