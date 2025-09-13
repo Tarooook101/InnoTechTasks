@@ -11,12 +11,21 @@
             @foreach (var item in Items)
             {
                 <li>
-                    <a class="dropdown-item"
-                       href="@item.Url"
-                       @onclick="() => OnItemClick(item)"
-                       @onclick:preventDefault="@(!string.IsNullOrEmpty(item.Url))">
-                        @item.Text
-                    </a>
+                    @if (!string.IsNullOrEmpty(item.Url) && item.Url != "#")
+                    {
+                        <a class="dropdown-item" href="@item.Url">
+                            @item.Text
+                        </a>
+                    }
+                    else
+                    {
+                        <a class="dropdown-item"
+                           href="javascript:void(0)"
+                           @onclick="() => OnItemClick(item)"
+                           @onclick:preventDefault="true">
+                            @item.Text
+                        </a>
+                    }
                 </li>
             }
         }

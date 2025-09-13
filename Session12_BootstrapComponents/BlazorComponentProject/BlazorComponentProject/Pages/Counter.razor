@@ -10,77 +10,50 @@
 
 <br />
 <br />
-<div class="dropdown">
-    <button class="btn btn-success dropdown-toggle" type="button" data-bs-toggle="dropdown">
-        Actions
-    </button>
-    <ul class="dropdown-menu">
-        <li><a class="dropdown-item" href="#" @onclick="() => currentCount = 0" @onclick:preventDefault="true">Reset</a></li>
-        <li><a class="dropdown-item" href="#" @onclick="() => currentCount += 10" @onclick:preventDefault="true">+10</a></li>
-        <li><a class="dropdown-item" href="#" @onclick="() => currentCount -= 5" @onclick:preventDefault="true">-5</a></li>
-    </ul>
-</div>
 
+<DropDownComponent ButtonText="Actions"
+                   ButtonClass="btn-success"
+                   Items="@dropdownItems"
+                   OnItemSelected="@OnActionSelected" />
 
 <br />
-@if (showAlert)
-{
-    <div class="alert alert-success alert-dismissible mt-3">
-        Counter updated successfully!
-        <button type="button" class="btn-close" @onclick="() => showAlert = false"></button>
-    </div>
-}
+
+<AlertComponent @ref="alertComponent"
+                Type="AlertType.Success"
+                Message="Counter updated successfully!"
+                IsDismissible="true"
+                IsVisible="@showAlert"
+                OnDismiss="@(() => showAlert = false)" />
 
 <br />
 
 <div class="mt-3">
-    <button class="btn btn-info me-2" @onclick="() => showToast = true">Show Toast</button>
-    <button class="btn btn-warning" @onclick="() => showModal = true">Show Modal</button>
+    <button class="btn btn-info me-2" @onclick="ShowToastNotification">Show Toast</button>
+    <button class="btn btn-warning" @onclick="ShowCounterModal">Show Modal</button>
 </div>
 
+<ToastComponent @ref="toastComponent"
+                Title="Counter Info"
+                Message="@($"Current count is {currentCount}")"
+                Type="ToastType.Success"
+                IsVisible="@showToast"
+                AutoHideDelay="5000"
+                OnHide="@(() => showToast = false)" />
 
-<br />
-
-<div class="toast-container position-fixed top-0 end-0 p-3">
-    @if (showToast)
-    {
-        <div class="toast show">
-            <div class="toast-header bg-success text-white">
-                <strong class="me-auto">Counter Info</strong>
-                <button type="button" class="btn-close btn-close-white" @onclick="() => showToast = false"></button>
-            </div>
-            <div class="toast-body">
-                Current count is @currentCount
-            </div>
+<ModalComponent @ref="modalComponent"
+                Title="Counter Settings"
+                IsVisible="@showModal"
+                Size="ModalSize.Default"
+                OnHide="@(() => showModal = false)">
+    <BodyContent>
+        <p>Current count: <strong>@currentCount</strong></p>
+        <div class="mb-3">
+            <label class="form-label">Set new count:</label>
+            <input type="number" class="form-control" @bind="newCount" />
         </div>
-    }
-</div>
-
-
-<br />
-
-@if (showModal)
-{
-    <div class="modal fade show" style="display: block;">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title">Counter Settings</h5>
-                    <button type="button" class="btn-close" @onclick="() => showModal = false"></button>
-                </div>
-                <div class="modal-body">
-                    <p>Current count: <strong>@currentCount</strong></p>
-                    <div class="mb-3">
-                        <label class="form-label">Set new count:</label>
-                        <input type="number" class="form-control" @bind="newCount" />
-                    </div>
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" @onclick="() => showModal = false">Cancel</button>
-                    <button type="button" class="btn btn-primary" @onclick="() => { currentCount = newCount; showModal = false; showAlert = true; }">Set Count</button>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="modal-backdrop fade show"></div>
-}
+    </BodyContent>
+    <FooterContent>
+        <button type="button" class="btn btn-secondary" @onclick="CancelModal">Cancel</button>
+        <button type="button" class="btn btn-primary" @onclick="SetNewCount">Set Count</button>
+    </FooterContent>
+</ModalComponent>
